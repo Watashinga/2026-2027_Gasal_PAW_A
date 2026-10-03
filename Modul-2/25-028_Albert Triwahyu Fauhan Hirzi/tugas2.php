@@ -1,6 +1,6 @@
 <?php 
 $matkul = ["PTI","ALPRO","DPW","STRUKDAT","JARKOM","PAW","PSBF","RPL"];
-for each ($matkul as $mk){
+foreach ($matkul as $mk){
 	switch ($mk) {
 		case "PTI":
 			echo "Sayasuka" . $mk . "<br>";
