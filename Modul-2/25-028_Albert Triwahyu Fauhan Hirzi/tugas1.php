@@ -1,6 +1,6 @@
 <?php 
 $matkul = ["PTI","ALPRO","DPW","STRUKDAT","JARKOM","PAW","PSBF","RPL"];
-$praktikum = ["JARKOM","PAW"]
+$praktikum = ["JARKOM","PAW"];
 
 for ($i = 0; $i < count($matkul); $i++) {
     if (in_array($matkul[$i], $praktikum)) {
